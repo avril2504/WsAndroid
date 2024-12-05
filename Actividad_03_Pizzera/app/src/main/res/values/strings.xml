@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Actividad_03_Pizzería</string>
+    <string name="encabezado">Crea tu pizza.</string>
+    <string name="nombre">Nombre:</string>
+    <string name="direccion">Dirección:</string>
+    <string name="tamanopizza">Tamaño de la pizza:</string>
+    <string name="tamanogrande">Grande €15</string>
+    <string name="tamanomediana">Mediana €10</string>
+    <string name="tamanopequena">Pequeña €5</string>
+    <string name="ingredientes">Ingredientes:</string>
+    <string name="pepperoni">Pepperoni €2</string>
+    <string name="maiz">Maiz €2</string>
+    <string name="jamon">Jamón €2</string>
+    <string name="aceitunas">Aceitunas €2</string>
+    <string name="bacon">Bacon €2</string>
+    <string name="calularprecio">Calcular precio:</string>
+
+</resources>

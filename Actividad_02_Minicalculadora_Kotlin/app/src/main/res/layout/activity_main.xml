@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:text="Calculadora"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="Número 1: "
+            />
+        <EditText
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:background="#708dd5"
+            android:textSize="24sp"
+            android:id="@+id/numero1"
+            android:inputType="numberDecimal"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="Número 2: "
+            />
+        <EditText
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:background="#708dd5"
+            android:textSize="24sp"
+            android:id="@+id/numero2"
+            android:inputType="numberDecimal"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:textSize="24sp"
+            android:text="+"
+            android:id="@+id/sumar"
+            />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:textSize="24sp"
+            android:text="-"
+            android:id="@+id/restar"
+            />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:textSize="24sp"
+            android:text="x"
+            android:id="@+id/multiplicar"
+            />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:textSize="24sp"
+            android:text="/"
+            android:id="@+id/dividir"
+            />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:text="^"
+            android:textSize="24sp"
+            android:id="@+id/potencia"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="Resultado: "
+            />
+        <EditText
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:background="#708dd5"
+            android:textSize="24sp"
+            android:focusableInTouchMode="false"
+            android:focusable="false"
+            android:id="@+id/resultado"
+            android:inputType="numberDecimal"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="24sp"
+        android:text="Borrar"
+        android:id="@+id/borrar"
+        />
+
+</LinearLayout>

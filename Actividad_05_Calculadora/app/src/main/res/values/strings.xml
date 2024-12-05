@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Actividad_05_Calculadora</string>
+    <string name="nombreUsuario">Nombre Usuario</string>
+    <string name="numero1">1</string>
+    <string name="numero2">2</string>
+    <string name="numero3">3</string>
+    <string name="numero4">4</string>
+    <string name="numero5">5</string>
+    <string name="numero6">6</string>
+    <string name="numero7">7</string>
+    <string name="numero8">8</string>
+    <string name="numero9">9</string>
+    <string name="numero0">0</string>
+    <string name="punto">.</string>
+    <string name="suma">+</string>
+    <string name="resta">-</string>
+    <string name="multiplicacion">x</string>
+    <string name="division">/</string>
+    <string name="igual">=</string>
+    <string name="C">C</string>
+    <string name="Calculadora">Calculadora</string>
+</resources>

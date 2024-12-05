@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Actividad_04_Pagina_Login_Pizzeria</string>
+    <string name="encabezado">Crea tu pizza.</string>
+    <string name="nombre">Nombre:</string>
+    <string name="direccion">Dirección:</string>
+    <string name="tamanopizza">Tamaño de la pizza:</string>
+    <string name="tamanogrande">Grande €15</string>
+    <string name="tamanomediana">Mediana €10</string>
+    <string name="tamanopequena">Pequeña €5</string>
+    <string name="ingredientes">Ingredientes:</string>
+    <string name="pepperoni">Pepperoni €2</string>
+    <string name="maiz">Maiz €2</string>
+    <string name="jamon">Jamón €2</string>
+    <string name="aceitunas">Aceitunas €2</string>
+    <string name="bacon">Bacon €2</string>
+    <string name="calularprecio">Calcular precio:</string>
+    <string name="bienvenido">Bienvenido a tu pizzeria de confianza</string>
+    <string name="nombreUsuario">Nombre de usuario</string>
+    <string name="passUsuario">Password de usuario</string>
+    <string name="login">Login</string>
+    <string name="listo">Pedido procesado</string>
+    <string name="usuario">Usuario:</string>
+    <string name="resumen">Resumne del pedido</string>
+    <string name="regresar">Regresar</string>
+    <string name="registrar">Registrar</string>
+    <string name="nombreUsuarioRegistrar">Nombre de usuario</string>
+    <string name="direccionRegistrar">Dirección</string>
+    <string name="passUsuarioRegistrar">Password</string>
+    <string name="Singnup">Singnup</string>
+</resources>

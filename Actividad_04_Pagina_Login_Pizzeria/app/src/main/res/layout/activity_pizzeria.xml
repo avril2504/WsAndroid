@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityPizzeria">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/encabezado"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:background="#0007FF"
+            android:textAlignment="center"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="4sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nombre"
+                android:textSize="20sp"
+                />
+
+            <EditText
+                android:id="@+id/nombreCreaPizza"
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="4sp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/direccion"
+                android:textSize="20sp"
+                />
+
+            <EditText
+                android:id="@+id/direccionCreaPizza"
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4sp"
+            android:text="@string/tamanopizza"
+            android:textSize="30sp" />
+
+        <RadioGroup android:id="@+id/tamano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="4sp">
+
+            <RadioButton android:id="@+id/grande"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tamanogrande"
+                android:textSize="16sp"/>
+            <!--app:buttonTint="@color/white" para cambiar la linea del circulo-->
+
+
+            <RadioButton android:id="@+id/mediana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tamanomediana"
+                android:textSize="16sp"
+                />
+
+            <RadioButton android:id="@+id/pequena"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tamanopequena"
+                android:textSize="16sp"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4sp"
+            android:text="@string/ingredientes"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="4sp">
+
+            <CheckBox android:id="@+id/pepperoni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pepperoni"
+                android:textSize="16sp" />
+
+            <CheckBox android:id="@+id/maiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/maiz"
+                android:textSize="16sp" />
+
+            <CheckBox android:id="@+id/jamon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jamon"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="4sp">
+
+            <CheckBox android:id="@+id/bacon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bacon"
+                android:textSize="16sp" />
+
+            <CheckBox android:id="@+id/aceitunas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aceitunas"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+        <Button android:id="@+id/bontonPrecio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#001EFF"
+            android:text="@string/calularprecio"
+            android:textSize="16sp"
+            android:layout_margin="4sp"/>
+
+        <EditText android:id="@+id/totalprecio"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_margin="4sp"
+            android:focusableInTouchMode="false"
+            android:inputType="none"
+            android:focusable="false"/>
+
+        <TextView
+            android:id="@+id/textViewError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
