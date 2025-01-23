@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.actividad_08_recycleview_videojuegos"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.actividad_08_recycleview_videojuegos"

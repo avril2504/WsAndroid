@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Actividad_08_RecycleView_Videojuegos</string>
+    <string name="alta">Dar de alta videojuego</string>
+    <string name="encabezadoV">Lista de videojuegos</string>
 </resources>
